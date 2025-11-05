@@ -1,0 +1,69 @@
+/* =========================
+   RESET / NORMALIZE STYLES
+   ========================= */
+
+/* Remove default margin, padding, and set box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default body styles */
+html, body {
+  height: 100%;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make media elements responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Inputs, buttons, selects, textareas inherit font */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default button styles (optional) */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Remove default focus outline (optional, can customize later) */
+:focus {
+  outline: none;
+}
