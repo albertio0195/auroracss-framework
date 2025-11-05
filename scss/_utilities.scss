@@ -1,0 +1,25 @@
+// 🧭 Text alignment
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+// 💪 Font weight
+.fw-bold { font-weight: 700; }
+.fw-normal { font-weight: 400; }
+.fw-light { font-weight: 300; }
+
+// 🎨 Text color
+.text-primary { color: $primary-color; }
+.text-secondary { color: $secondary-color; }
+.text-success { color: $success-color; }
+.text-error { color: $error-color; }
+
+// 📏 Margin & Padding (example)
+.m-1 { margin: $space-sm; }
+.m-2 { margin: $space-md; }
+.mt-1 { margin-top: $space-sm; }
+.mb-2 { margin-bottom: $space-md; }
+
+.p-1 { padding: $space-sm; }
+.p-2 { padding: $space-md; }
+.px-2 { padding-left: $space-md; padding-right: $space-md; }

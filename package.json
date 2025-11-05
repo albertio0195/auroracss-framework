@@ -1,0 +1,23 @@
+{
+  "name": "auroracss-framework",
+  "version": "1.0.0",
+  "description": "A lightweight, modern custom CSS framework built with Sass.  \r It provides consistent styles for HTML elements and utility classes for quick customization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertio0195/auroracss-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertio0195/auroracss-framework/issues"
+  },
+  "homepage": "https://github.com/albertio0195/auroracss-framework#readme",
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}
